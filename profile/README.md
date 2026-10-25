@@ -21,9 +21,7 @@ agent payments over x402 and Stripe. The AI stays offline; only the crypto goes 
 
 ### Repositories
 
-| | |
-|---|---|
-| [**hermit.my**](https://github.com/Hermit-Ai-Labs/hermit.my) | The website. Plain HTML, CSS and JS on Cloudflare Pages. |
+- [**hermit.my**](https://github.com/Hermit-Ai-Labs/hermit.my): the website. Plain HTML, CSS and JS on Cloudflare Pages.
 
 The iPhone app is in a private beta on TestFlight. [Join the waitlist](https://hermit.my).
 
