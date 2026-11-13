@@ -27,6 +27,7 @@ and it keeps answering.
 
 - **Mac:** [hermit.my/dmg](https://hermit.my/dmg) (notarized, Apple silicon, macOS 26), or the [Mac beta on TestFlight](https://testflight.apple.com/join/P66H5DF8)
 - **iPhone:** [TestFlight beta](https://testflight.apple.com/join/ed9vUh7d)
+- **Demo video:** [on X](https://x.com/MrRyanChi/status/2121186366537244978)
 - **Docs:** [docs.hermit.my](https://docs.hermit.my)
 - **Screens and diagrams:** [hermit.my/gallery](https://hermit.my/gallery)
 
