@@ -4,11 +4,12 @@
   <a href="https://hermit.my/dmg"><img alt="Download for Mac" src="https://img.shields.io/badge/Mac-Download-1F3B73?style=flat-square&logo=apple&logoColor=white"></a>
   <a href="https://testflight.apple.com/join/ed9vUh7d"><img alt="iPhone beta on TestFlight" src="https://img.shields.io/badge/iPhone-TestFlight%20beta-0A84FF?style=flat-square&logo=apple&logoColor=white"></a>
   <a href="https://docs.hermit.my"><img alt="Docs" src="https://img.shields.io/badge/Docs-docs.hermit.my-4D1D95?style=flat-square"></a>
+  <a href="https://github.com/Hermit-Ai-Labs/hermit-app#how-hermit-uses-near"><img alt="Live on NEAR mainnet" src="https://img.shields.io/badge/NEAR%20mainnet-blackbox%20%C2%B7%20insurance%20%C2%B7%20guard-00EC97?style=flat-square&labelColor=111111"></a>
   <a href="https://huggingface.co/aiquantgod"><img alt="Models on Hugging Face" src="https://img.shields.io/badge/Models-Hugging%20Face-FFB000?style=flat-square&logo=huggingface&logoColor=white"></a>
   <a href="https://x.com/hermitai_"><img alt="@hermitai_ on X" src="https://img.shields.io/badge/@hermitai__-000000?style=flat-square&logo=x&logoColor=white"></a>
 </p>
 
-## Hermit AI Labs
+## Hermit
 
 **We build a private agent that is loyal to one person: you.**
 
@@ -27,6 +28,7 @@ and it keeps answering.
 - **Mac:** [hermit.my/dmg](https://hermit.my/dmg) (notarized, Apple silicon, macOS 26), or the [Mac beta on TestFlight](https://testflight.apple.com/join/P66H5DF8)
 - **iPhone:** [TestFlight beta](https://testflight.apple.com/join/ed9vUh7d)
 - **Docs:** [docs.hermit.my](https://docs.hermit.my)
+- **Screens and diagrams:** [hermit.my/gallery](https://hermit.my/gallery)
 
 ### What you can ask it
 
@@ -41,7 +43,10 @@ and it keeps answering.
 | | |
 |---|---|
 | **Our own models** | We train them ourselves. Hermit 1.3 is our fine-tune of Qwen3-4B and Hermit 1.3 Lite is for smaller iPhones, both taught Hermit's 30 tools on 21,000 examples of real tasks. Open weights on [Hugging Face](https://huggingface.co/aiquantgod). |
-| **NEAR at the core** | Swaps and bridges go through NEAR Intents, every wallet has a NEAR account, and bigger questions can go to NEAR AI Cloud, but only after the device has checked the enclave's proof. |
+| **NEAR at the core** | Swaps and bridges go through NEAR Intents, every wallet has a NEAR account you can stake from, and bigger questions can go to NEAR AI Cloud, but only after the device has checked the enclave's proof. |
+| **Black Box** | Every money move the AI prepares and you approve can leave a fingerprint on NEAR, a hash and never the chat, and every Hermit model's hashes are published there for the app to check. [`hermit-blackbox.near`](https://nearblocks.io/address/hermit-blackbox.near) |
+| **AI insurance** | 1 USDC for 30 days. If the AI's mistake costs you money, your Black Box record is the proof and approved claims are paid from a public pool on NEAR. [`hermit-insurance.near`](https://nearblocks.io/address/hermit-insurance.near) |
+| **Budgets** | Give an agent a small budget with on-chain rules: caps per payment and per day, allowed recipients, standing orders. [`hermit-guard.near`](https://nearblocks.io/address/hermit-guard.near) |
 | **Trade and earn** | Perps on Hyperliquid, spot on Solana through Jupiter, Aave deposits, and a browser where web apps see a Hermit wallet. |
 | **You approve everything** | The assistant can only prepare. A spending policy and a review you approve sit between it and a signature, and the keys are sealed by the Secure Enclave. |
 
@@ -58,7 +63,8 @@ and it keeps answering.
 
 | Repository | What it is |
 |---|---|
-| [**hermit-app**](https://github.com/Hermit-Ai-Labs/hermit-app) | The native Mac and iPhone apps in SwiftUI: on-device inference with MLX, the self-custody wallet, trading, earning, payments and automations. |
+| [**hermit-app**](https://github.com/Hermit-Ai-Labs/hermit-app) | The native Mac and iPhone apps in SwiftUI: on-device inference with MLX, the self-custody wallet, trading, earning, payments and automations, plus our three NEAR contracts. |
+| [**hermit-training**](https://github.com/Hermit-Ai-Labs/hermit-training) | How we train our models: the training data, the generators, every test suite with its results, and the recipe. |
 | [**hermit.my**](https://github.com/Hermit-Ai-Labs/hermit.my) | The website. |
 
-<sub>© 2026 Hermit AI Labs. Mac, iPhone, App Store and TestFlight are trademarks of Apple Inc.</sub>
+<sub>© 2026 Hermit. <a href="https://hermit.my/terms">Terms</a> · <a href="https://hermit.my/privacy">Privacy</a>. Mac, iPhone, App Store and TestFlight are trademarks of Apple Inc.</sub>
