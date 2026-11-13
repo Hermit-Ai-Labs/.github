@@ -61,10 +61,10 @@ and it keeps answering.
 
 ### Repositories
 
-| Repository | What it is |
+| Repository&nbsp;&nbsp;&nbsp;&nbsp; | What it is |
 |---|---|
-| [**hermit-app**](https://github.com/Hermit-Ai-Labs/hermit-app) | The native Mac and iPhone apps in SwiftUI: on-device inference with MLX, the self-custody wallet, trading, earning, payments and automations, plus our three NEAR contracts. |
-| [**hermit-training**](https://github.com/Hermit-Ai-Labs/hermit-training) | How we train our models: the training data, the generators, every test suite with its results, and the recipe. |
+| [**hermit&#8209;app**](https://github.com/Hermit-Ai-Labs/hermit-app) | The native Mac and iPhone apps in SwiftUI: on-device inference with MLX, the self-custody wallet, trading, earning, payments and automations, plus our three NEAR contracts. |
+| [**hermit&#8209;training**](https://github.com/Hermit-Ai-Labs/hermit-training) | How we train our models: the training data, the generators, every test suite with its results, and the recipe. |
 | [**hermit.my**](https://github.com/Hermit-Ai-Labs/hermit.my) | The website. |
 
 <sub>© 2026 Hermit. <a href="https://hermit.my/terms">Terms</a> · <a href="https://hermit.my/privacy">Privacy</a>. Mac, iPhone, App Store and TestFlight are trademarks of Apple Inc.</sub>
