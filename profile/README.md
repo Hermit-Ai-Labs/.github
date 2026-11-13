@@ -21,7 +21,7 @@ and it keeps answering.
 > **The AI is offline. The money is online.**
 > Reasoning stays on the device. Only a transaction you approved and signed ever leaves it.
 
-<p align="center"><img src="app.jpg" alt="Hermit on iPhone: offline chat, perps trading, DeFi yield, your own wallet and the on-device model"></p>
+<p align="center"><img src="app.jpg" alt="Hermit on iPhone: chat with Hermit 1.3 on the device, a NEAR Intents swap in one review, Budgets on NEAR, staking NEAR, and the Private Cloud enclave proof"></p>
 
 ### Try it
 
